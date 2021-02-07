@@ -76,14 +76,3 @@ class BinarySearchTree {
 }
 
 let bst = new BinarySearchTree();
-
-bst.insert(4);
-bst.insert(2);
-bst.insert(-1);
-bst.insert(1);
-bst.insert(11);
-bst.insert(7);
-bst.insert(26);
-bst.insert(13);
-bst.insert(26);
-bst.insert(5);

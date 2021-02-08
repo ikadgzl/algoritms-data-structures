@@ -136,14 +136,3 @@ class BinarySearchTree {
 		return data;
 	}
 }
-
-const x = new BinarySearchTree();
-
-x.insert(1);
-x.insert(7);
-x.insert(-3);
-x.insert(6);
-x.insert(4);
-x.insert(9);
-x.insert(15);
-x.insert(2);

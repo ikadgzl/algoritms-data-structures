@@ -94,30 +94,3 @@ class Graph {
     return result;
   }
 }
-
-const g = new Graph();
-
-g.addVertex('Hong Kong');
-g.addVertex('Tokyo');
-g.addVertex('Los Angeles');
-g.addVertex('Istanbul');
-g.addVertex('Berlin');
-
-g.addEdge('Hong Kong', 'Berlin');
-g.addEdge('Hong Kong', 'Istanbul');
-g.addEdge('Istanbul', 'Tokyo');
-g.addEdge('Istanbul', 'Berlin');
-g.addEdge('Tokyo', 'Berlin');
-g.addEdge('Los Angeles', 'Istanbul');
-g.addEdge('Los Angeles', 'Tokyo');
-g.addEdge('Los Angeles', 'Berlin');
-
-console.log(g);
-
-const x = g.depthFirst('Berlin');
-
-console.log(x);
-
-const y = g.breadthFirst('Berlin');
-
-console.log(y);

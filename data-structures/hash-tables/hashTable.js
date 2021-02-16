@@ -80,16 +80,3 @@ class HashTable {
     return values;
   }
 }
-
-const x = new HashTable(3);
-
-x.set('ilker', 'kaan');
-x.set('ilkeasr', 'kaan');
-x.set('ilkeqwer', 'kaan');
-x.set('ilk23er', 'kaan');
-x.set('ilkqweer', 'kaan');
-
-console.log(x.keyMap);
-
-console.log(x.keys());
-console.log(x.values());
